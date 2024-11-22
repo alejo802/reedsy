@@ -1,0 +1,102 @@
+[
+    {
+      "id": 1,
+      "title": "In Search of Lost Time",
+      "author": "Marcel Proust",
+      "published": 1913,
+      "rating": 9.8,
+      "description": "A novel exploring memory, time, and the complexities of human experience.",
+      "cover": "https://example.com/in-search-of-lost-time.jpg",
+      "showDetails": false
+    },
+    {
+      "id": 2,
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "published": 1605,
+      "rating": 9.7,
+      "description": "A story about the adventures of a nobleman who reads so many chivalric romances he loses his sanity.",
+      "cover": "https://example.com/don-quixote.jpg",
+      "showDetails": false
+    },
+    {
+      "id": 3,
+      "title": "Ulysses",
+      "author": "James Joyce",
+      "published": 1904,
+      "rating": 9.5,
+      "description": "A modernist novel that chronicles a day in the life of Leopold Bloom in Dublin.",
+      "cover": "https://example.com/ulysses.jpg",
+      "showDetails": false
+    },
+    {
+      "id": 4,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "published": 1925,
+      "rating": 9.4,
+      "description": "A tale of ambition, love, and betrayal set in the Jazz Age of the 1920s.",
+      "cover": "https://example.com/the-great-gatsby.jpg",
+      "showDetails": false
+    },
+    {
+      "id": 5,
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "published": 1851,
+      "rating": 9.3,
+      "description": "A story of obsession and revenge as Captain Ahab hunts the white whale.",
+      "cover": "https://example.com/moby-dick.jpg",
+      "showDetails": false
+    },
+    {
+      "id": 6,
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "published": 1869,
+      "rating": 9.2,
+      "description": "An epic novel about Russian society during the Napoleonic Era.",
+      "cover": "https://example.com/war-and-peace.jpg",
+      "showDetails": false
+    },
+    {
+      "id": 7,
+      "title": "1984",
+      "author": "George Orwell",
+      "published": 1949,
+      "rating": 9.1,
+      "description": "A dystopian novel about a totalitarian regime and the perils of surveillance.",
+      "cover": "https://example.com/1984.jpg",
+      "showDetails": false
+    },
+    {
+      "id": 8,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "published": 1813,
+      "rating": 9.0,
+      "description": "A romantic novel about manners and the pursuit of love.",
+      "cover": "https://example.com/pride-and-prejudice.jpg",
+      "showDetails": false
+    },
+    {
+      "id": 9,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "published": 1951,
+      "rating": 8.9,
+      "description": "A story about teenage alienation and rebellion in mid-20th century America.",
+      "cover": "https://example.com/the-catcher-in-the-rye.jpg",
+      "showDetails": false
+    },
+    {
+      "id": 10,
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "published": 1866,
+      "rating": 8.8,
+      "description": "A psychological drama about guilt, redemption, and morality.",
+      "cover": "https://example.com/crime-and-punishment.jpg",
+      "showDetails": false
+    }
+  ]

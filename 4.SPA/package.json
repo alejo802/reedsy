@@ -1,0 +1,36 @@
+{
+    "name": "book-explorer",
+    "version": "1.0.0",
+    "description": "A Vue.js SPA for exploring popular books with pagination and details view.",
+    "author": "Alejo",
+    "license": "MIT",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "test:unit": "vue-cli-service test:unit"
+    },
+    "dependencies": {
+        "core-js": "^3.8.3",
+        "vue": "^3.2.0",
+        "vue-router": "^4.0.0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~5.0.0",
+        "@vue/cli-plugin-eslint": "~5.0.0",
+        "@vue/cli-plugin-router": "~5.0.0",
+        "@vue/cli-plugin-unit-jest": "~5.0.0",
+        "@vue/cli-service": "~5.0.0",
+        "@vue/test-utils": "^2.0.0-rc.18",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.32.0",
+        "eslint-plugin-jest": "^28.9.0",
+        "eslint-plugin-vue": "^7.20.0",
+        "sass": "^1.32.0",
+        "sass-loader": "^12.0.0"
+    },
+    "engines": {
+        "node": ">=14.0.0",
+        "npm": ">=6.0.0"
+    }
+}

@@ -1,0 +1,96 @@
+# Logs and debugging
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+bower_components/
+
+# Build outputs
+dist/
+build/
+lib/
+es/
+
+# Coverage directory used by testing tools
+coverage/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Project files
+.DS_Store
+.env.local
+.env.*.local
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Cache directories
+.cache/
+.vuepress/dist
+.hugo_build.lock
+.hugo_cache/
+.nuxt/
+.next/
+.ember-cli/
+.serverless/
+.fusebox/
+.rpt2_cache/
+.cache-loader/
+.eslintcache
+.stylelintcache
+.parcel-cache/
+.vite
+.terraform/
+.cdk.staging/
+.cdk.out/
+.snowpack/
+
+# IDE-specific files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
+# macOS system files
+.DS_Store
+
+# Environment files
+.env
+.env.test
+.env.production
+
+# Local history (WebStorm)
+.local_history/
+
+# Yarn PnP
+.pnp.*

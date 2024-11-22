@@ -1,0 +1,142 @@
+// main.scss
+
+// Variables
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$light-gray: #f8f9fa;
+$dark-gray: #343a40;
+$border-color: #ddd;
+$font-family: "Arial, sans-serif";
+$transition-time: 0.3s;
+
+// Mixins
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin button-styles($bg-color, $text-color) {
+  background-color: $bg-color;
+  color: $text-color;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  transition: background-color $transition-time;
+
+  &:hover {
+    background-color: darken($bg-color, 10%);
+  }
+}
+
+// Reset and Base Styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family;
+  background-color: $light-gray;
+  color: $dark-gray;
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-color;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  @include button-styles($primary-color, #fff);
+}
+
+// Components Styling
+.book-list {
+  max-width: 800px;
+  margin: 0 auto;
+
+  ul {
+    margin: 1rem 0;
+  }
+}
+
+.book-item {
+  border: 1px solid $border-color;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  transition: box-shadow $transition-time;
+
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .book-header {
+    @include flex-center;
+    padding: 1rem;
+    border-bottom: 1px solid $border-color;
+    cursor: pointer;
+    font-size: 1.2rem;
+
+    img {
+      width: 50px;
+      height: 75px;
+      object-fit: cover;
+      margin-right: 1rem;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 1.2rem;
+      color: $dark-gray;
+    }
+
+    p {
+      margin-top: 0.25rem;
+      font-size: 0.9rem;
+      color: $secondary-color;
+    }
+  }
+
+  .book-details {
+    padding: 1rem;
+    background-color: $light-gray;
+    color: $dark-gray;
+
+    p {
+      margin: 0.5rem 0;
+    }
+
+    strong {
+      color: $primary-color;
+    }
+  }
+}
+
+.pagination {
+  @include flex-center;
+  margin-top: 1rem;
+
+  button {
+    @include button-styles($secondary-color, #fff);
+    margin: 0 0.5rem;
+
+    &.active {
+      @include button-styles($primary-color, #fff);
+    }
+  }
+}
